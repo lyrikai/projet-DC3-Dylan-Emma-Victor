@@ -10,8 +10,8 @@
 
 menu {
     background-color: #B0F2F5;
-    height: 100px;
-    width: 100vw;
+    height: 80px;
+    max-width: 100vw;
     display: flex;
     flex-direction: row;    
     align-items: center;
@@ -33,6 +33,7 @@ menu {
     justify-content: flex-end;
     width: 85%;
     margin-right: 50px;
+    text-transform: uppercase;
 }
 
 #list-menu > div:hover{
@@ -43,3 +44,25 @@ menu {
     margin: 0 20px;
 }
 
+/*------------*/
+
+#banner{
+    background-image: url("img/back1.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding: 30px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 6rem;
+    text-transform: uppercase;
+
+}
+
+h2{
+    font-size: 3rem;
+}
