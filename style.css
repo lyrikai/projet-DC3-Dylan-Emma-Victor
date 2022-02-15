@@ -9,6 +9,10 @@
      font-size: 0.625rem;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 menu {
     background-color: #CAF0F8;
     height: 80px;
@@ -179,7 +183,7 @@ h2{
 }
 
 #section-2{
-    background-color: coral;
+    background-color: #e2fdff;
 }
 
 #section-3{
@@ -200,6 +204,7 @@ h2{
     background-color: #468faf;
     font-size: 1.4rem;
     padding: 5px;
+    width: 50%;
     text-transform: uppercase;
     border-radius: 3px;
 }
@@ -219,9 +224,56 @@ h2{
     height: 100%; 
     font-size: 1.6rem;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    border: black 1px solid;
+    overflow-y: scroll;
 }
 
-.box-stage{
-   
+.box-stage > h4{
+   margin: 3px 0;
+   text-align: center;
 }
+.txt-offre{
+    font-size: 1.4rem;
+}
+
+.p-offre{
+    font-size: 1.3rem;
+}
+
+hr{
+    border: 1px solid black;
+    width: 50%;
+    margin: 3px 0;
+}
+
+/*----------section 2---------*/
+
+#section-2{
+    padding: 10px;
+    border-bottom: 1px solid black;
+ }
+ 
+ #sec2-title{
+     background-color: #468faf;
+     font-size: 1.4rem;
+     padding: 5px;
+     width: 50%;
+     text-transform: uppercase;
+     border-radius: 3px;
+ }
+
+ #grid-doc{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-template-rows: repeat(3 , 100px);
+     row-gap: 10px;
+     column-gap: 10px;
+     grid-auto-flow: row;
+     margin: 20px 0;
+      
+ }
+
+ #grid-doc > div{
+     border: solid rebeccapurple 3px;
+ }
