@@ -49,7 +49,7 @@ menu {
 #banner{
     background-image: url("img/back1.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,4 +65,98 @@ h1{
 
 h2{
     font-size: 3rem;
+}
+
+/*-----------*/
+
+#board{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+#profil{
+    width: 13%;
+    background-color: red;
+}
+
+#general{
+    width: 87%;
+    background-color: green;
+}
+
+/*-------profil-general---------*/
+
+#profil{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------profil----------*/
+#profil-bloc{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: hotpink;
+    font-size: 1.4rem;
+    border-bottom: solid 2px black;
+}
+
+#profil-picture{
+    margin-right: 20px;
+  
+}
+
+/*----------cour--------*/
+
+#virual-room{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+}
+
+#titre-room{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+
+#bloc-matiere{
+    margin-top: 10px;
+}
+
+#bloc-matiere > div{
+    margin: 8px 0;
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+
+/*-------Service--------*/
+
+#service{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+}
+
+#titre-service{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+
+#bloc-service{
+    margin-top: 10px;
+}
+
+#bloc-service > div{
+    margin: 8px 0;
+    font-size: 1.4rem;
+    padding-left: 20px;
 }
