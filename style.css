@@ -184,6 +184,7 @@ h2{
 
 #section-2{
     background-color: #e2fdff;
+    height: 20%;
 }
 
 #section-3{
@@ -263,17 +264,16 @@ hr{
      border-radius: 3px;
  }
 
- #grid-doc{
-     display: grid;
-     grid-template-columns: repeat(5, 1fr);
-     grid-template-rows: repeat(3 , 100px);
-     row-gap: 10px;
-     column-gap: 10px;
-     grid-auto-flow: row;
-     margin: 20px 0;
-      
+ .folder-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+    
  }
 
- #grid-doc > div{
-     border: solid rebeccapurple 3px;
+ #bloc-doc{
+     display: flex;
+     flex-direction: row;
+     font-size: 1.3rem;
  }
