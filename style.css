@@ -174,12 +174,12 @@ h2{
 }
 
 #section-1, #section-2, #section-3, #section-4{
-    height: 25%;
     width: 100%;
 }
 
 #section-1{
     background-color: #e2fdff;
+    height: 25%;
 }
 
 #section-2{
@@ -189,11 +189,10 @@ h2{
 
 #section-3{
     background-color: palegreen;
+    height: 50%;
 }
 
-#section-4{
-    background-color: yellow;
-}
+
 
 /*----------section 1---------*/
 #section-1{
