@@ -5,6 +5,10 @@
    
 }
 
+body{
+    background-color: #e2fdff;
+}
+
 :root{
      font-size: 0.625rem;
 }
