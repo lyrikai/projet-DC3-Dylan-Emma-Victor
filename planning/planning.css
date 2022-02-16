@@ -173,3 +173,60 @@ h2{
     font-size: 1.4rem;
     padding-left: 20px;
 }
+
+/*----------------*/
+#general{
+    padding: 20px;
+}
+
+#sec-pla{
+    background-color: #468faf;
+    font-size: 1.4rem;
+    padding: 5px;
+    width: 50%;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#box-pla{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.abs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.abs > div{
+    width: 14%;
+    border: 1px solid black;
+    text-align: center;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.color > div:hover{
+    background-color: #CAF0F8;
+ }
+ 
+
+.abs > div:hover{
+   background-color: #39cdeb;
+}
+
+#color > div{
+    font-weight: bold;
+    background-color: #CAF0F8;
+}
+.bg{
+    background-color: rgb(189, 223, 255);
+}
+
