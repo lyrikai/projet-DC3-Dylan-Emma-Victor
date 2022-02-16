@@ -170,7 +170,7 @@ h2{
 /*----------------------------GENERAL------------------------*/
 
 #general{
-    background-color: brown;
+    background-color: #e2fdff;
 }
 
 #section-1, #section-2, #section-3, #section-4{
@@ -188,7 +188,7 @@ h2{
 }
 
 #section-3{
-    background-color: palegreen;
+    background-color: #e2fdff;
     height: 50%;
 }
 
@@ -276,3 +276,119 @@ hr{
      flex-direction: row;
      font-size: 1.3rem;
  }
+
+ /*----------section 3----------*/
+
+#section-3{
+    display: flex;
+    flex-direction: row;
+}
+
+#absence{
+    width: 70%;
+    height: 100%;
+    margin-right: 10px;
+    border-right: 1px solid black;
+    overflow: scroll;
+}
+
+#actu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#section-4{
+    padding: 10px;
+    border-bottom: 1px solid black;
+ }
+ 
+ #sec4-title{
+     background-color: #468faf;
+     font-size: 1.4rem;
+     padding: 5px;
+     width: 50%;
+     text-transform: uppercase;
+     border-radius: 3px;
+ }
+
+
+ #section-3{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    
+ }
+ 
+ #sec3-title{
+    margin: 10px 0 20px 0;
+     background-color: #468faf;
+     font-size: 1.4rem;
+     padding: 5px;
+     width: 50%;
+     text-transform: uppercase;
+     border-radius: 3px;
+ }
+
+ .abs{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin: 10px 0;
+ }
+ .abs > div{
+     border: black 1px solid;
+     width: 25%;
+     text-align: center;
+     padding: 10px 0;
+     font-size: 1.5rem;
+     margin: 0 2px;
+
+ }
+
+ #color{
+     background-color: #CAF0F8;
+     margin-bottom: 10px;
+     margin-top: 10px;
+
+ }
+
+ #box-abs{
+     margin: 10px 20px;
+
+ }
+
+ #box-actu{
+    margin: 10px; 
+    background: url("img/actu.png") no-repeat;
+     height: 80%;
+     background-size: contain;
+ }
+
+ #sec3-title2{
+    margin: 30px 0;
+    background-color: #468faf;
+    font-size: 1.4rem;
+    padding: 5px;
+    width: 50%;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#box-pla{
+    margin: 10px 10px;
+    border: black 1px solid;
+   
+}
+
+#box-pla > div > div{
+    margin: 0;
+    padding: 15px 10px;
+   
+}
+
+#box-pla > div{
+    margin: 0;
+   
+}
