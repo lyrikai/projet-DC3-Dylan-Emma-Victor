@@ -77,7 +77,7 @@ h2{
 #board{
     display: flex;
     flex-direction: row;
-    height: 1000px;
+    height: 80vh;
 }
 
 #profil{
@@ -165,4 +165,55 @@ h2{
     margin: 8px 0;
     font-size: 1.4rem;
     padding-left: 20px;
+}
+
+/*------------------------*/
+
+#section-note{
+    padding: 30px ;
+
+ }
+ 
+ #sec1-note{
+     background-color: #468faf;
+     font-size: 1.4rem;
+     padding: 5px;
+     width: 50%;
+     text-transform: uppercase;
+     border-radius: 3px;
+ }
+
+ #bloc-note{
+     display: flex;
+     flex-direction: column;
+     width: 80%;
+     margin-top: 20px;
+ }
+
+ .div-note{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+ }
+
+ .div-note > div{
+    border: black 1px solid;
+    
+    padding: 10px 5px;
+    font-size: 1.7rem;
+    width: 10%;
+
+}
+
+.div-note > div:first-child {
+    width: 25%;
+}
+
+.div-note > div:nth-child(2) {
+   width: 25%;
+}
+
+.color{
+    background-color: #CAF0F8;
+    text-align: center;
 }
