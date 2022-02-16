@@ -9,16 +9,15 @@
      font-size: 0.625rem;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
     color: black;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 menu {
     background-color: #CAF0F8;
@@ -79,3 +78,247 @@ h1{
 h2{
     font-size: 3rem;
 }
+
+/*---------------------------BOARD---------------------------------------*/
+
+#board{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+#profil{
+    width: 13%;
+    min-width: 250px;
+    background-color: #CAF0F8;
+}
+
+#general{
+    width: 87%;
+
+}
+
+/*------------------------------------profil-general-----------------------------------*/
+
+#profil{
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px black;
+}
+
+/*-------profil----------*/
+#profil-bloc{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 1.4rem;
+    border-bottom: solid 1px black;
+}
+
+#profil-picture{
+    margin-right: 20px;
+  
+}
+
+/*----------cour--------*/
+
+#virual-room{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
+}
+
+#titre-room{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+
+#bloc-matiere{
+    margin-top: 10px;
+}
+
+#bloc-matiere > div{
+    margin: 8px 0;
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+
+/*-------Service--------*/
+
+#service{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
+}
+
+#titre-service{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+
+#bloc-service{
+    margin-top: 10px;
+}
+
+#bloc-service > div{
+    margin: 8px 0;
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+
+/*------------------------*/
+
+#sec1-absences{
+    background-color: #468faf;
+    font-size: 1.4rem;
+    padding: 5px;
+    width: 50%;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#bloc-abs{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px;
+}
+.abs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.abs > div{
+    border: black 1px solid;
+    padding: 5px; 
+    min-width: 70px;
+    font-size: 1.6rem;
+    width: 20%;
+    padding-left: 15px;
+}
+
+#color{
+    background-color: #ade8f4;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+#color >div:hover{
+    background-color: #ade8f4;
+    
+   
+}
+
+.abs>div:hover{
+    background-color: lightcyan;
+    
+   
+}
+
+
+/*--------media---------*/
+
+@media (max-width: 1024px) { 
+    #list-menu{
+        font-size: 1.2rem;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    #list-menu > div {
+        margin: 0 10px;
+    }
+
+    #menu-logo{
+        display: none;
+    }
+
+    menu{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abs > div{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+  
+ }
+
+ @media (max-width: 767px) { 
+    #profil{
+        display: none;
+    }
+
+    #general{
+        width: 100%;
+    }
+
+
+ }
+
+ @media (max-width: 425px) { 
+
+    #list-menu{
+        font-size: 0.8rem;
+    }
+
+    #board{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #profil{
+        width: 100%;
+        min-width: 250px;
+        background-color: #CAF0F8;
+    }
+    
+    #general{
+        width: 100%;
+        margin: 0;
+    
+    }
+
+    #board {
+        height: 50vh;
+    }
+
+
+    #list-menu{
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3rem;
+        
+    }
+
+    menu{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #list-menu > div{
+        margin: 5px 0;
+
+    }
+    
+   
+ }
