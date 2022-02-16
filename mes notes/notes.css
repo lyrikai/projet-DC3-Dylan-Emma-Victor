@@ -9,6 +9,12 @@
      font-size: 0.625rem;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -200,17 +206,20 @@ h2{
     border: black 1px solid;
     
     padding: 10px 5px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     width: 10%;
+    text-align: center;
 
 }
 
 .div-note > div:first-child {
     width: 25%;
+    text-align: left;
 }
 
 .div-note > div:nth-child(2) {
    width: 25%;
+   text-align: left;
 }
 
 .color{
