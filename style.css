@@ -398,3 +398,167 @@ hr{
     margin: 0;
    
 }
+
+
+@media (max-width: 1024px) { 
+    #absence {
+        border-right: 0px solid black;
+    }
+    #list-menu{
+        font-size: 1.2rem;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    #bloc-doc{
+       overflow-x: scroll;
+    }
+
+    #list-menu > div {
+        margin: 0 10px;
+    }
+
+    #menu-logo{
+        display: none;
+    }
+
+    menu{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-3{
+        flex-direction: column;
+    }
+    #test{
+        overflow-x: scroll;
+    }
+
+    #absence{
+        width: 100%;
+    }
+
+    #profil{
+        display: none;
+    }
+
+    #general {
+        width: 100%;
+    }
+    .abs > div {
+
+        min-width: 100px;
+
+    }
+    #actu{
+        width: 100%;
+    }
+
+    #actu {
+        display: none;
+    }
+
+    #section-3 {
+        
+        border-bottom: 0px solid black;
+    }
+
+    .folder-box > div{
+        text-align: center;
+    }
+
+  
+ }
+
+ @media (max-width: 767px) { 
+    #profil{
+        display: none;
+    }
+
+    #general{
+        width: 100%;
+    }
+    .abs > div {
+
+        min-width: 100px;
+
+    }
+
+    #sec1-title, #sec2-title, #sec3-title, #sec4-title, #sec3-title2 {
+
+        width: 90%;
+
+    }
+
+    #box-pla {
+        border: black 0px solid;
+    }
+
+    .abs > div {
+    
+        font-size: 1.2rem;
+    }
+
+    #color {
+        background-color: #e2fdff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+ }
+
+ @media (max-width: 425px) { 
+
+    #list-menu{
+        font-size: 0.8rem;
+    }
+
+    #board{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #profil{
+        width: 100%;
+        min-width: 250px;
+        background-color: #CAF0F8;
+    }
+    
+    #general{
+        width: 100%;
+        margin: 0;
+    
+    }
+
+
+    #list-menu{
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3rem;
+        
+    }
+
+    menu{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #list-menu > div{
+        margin: 5px 0;
+
+    }
+
+    #section-2 {
+        height: 15%;
+    }
+
+
+    
+   
+ }

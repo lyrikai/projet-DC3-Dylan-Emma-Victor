@@ -226,3 +226,113 @@ h2{
     background-color: #CAF0F8;
     text-align: center;
 }
+
+/*--------media---------*/
+
+@media (max-width: 1024px) { 
+    #list-menu{
+        font-size: 1.2rem;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .div-note > div{
+        overflow: hidden;
+    
+    }
+
+    #list-menu > div {
+        margin: 0 10px;
+    }
+
+    #menu-logo{
+        display: none;
+    }
+
+    menu{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #bloc-note{
+        width: 100%;
+    }
+
+  
+ }
+
+ @media (max-width: 767px) { 
+    #profil{
+        display: none;
+    }
+
+    #general{
+        width: 100%;
+    }
+    .div-note > div{
+        font-size: 1rem;
+    }
+ }
+
+ @media (max-width: 425px) { 
+
+    .div-note > div{
+        width: 12%;
+        overflow: hidden;
+    
+    }
+    
+    .div-note > div:first-child {
+        width: 20%;
+    }
+    
+    .div-note > div:nth-child(2) {
+       width: 20%;
+    }
+
+    #list-menu{
+        font-size: 0.8rem;
+    }
+
+    #board{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #profil{
+        width: 100%;
+        min-width: 250px;
+        background-color: #CAF0F8;
+    }
+    
+    #general{
+        width: 100%;
+        margin: 0;
+    
+    }
+
+
+    #list-menu{
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3rem;
+        
+    }
+
+    menu{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #list-menu > div{
+        margin: 5px 0;
+
+    }
+    
+   
+ }
